@@ -6,6 +6,11 @@ import Paper from "@mui/material/Paper";
 import Button from "@mui/material/Button";
 import openInNewTab from "../../utils/openInNewTab";
 import Box from "@mui/material/Box"
+import {UTF8ArrToStr, base64DecToArr} from "../../utils/Obfuscate"
+
+
+const email = "Y2hhcmlzYWtpbmcxQGdtYWlsLmNvbQ==";
+const phone = "KzEgKDQzNSkgODUwLTk1MzU=";
 
 const contact = () => (
   <Box sx={{ marginTop: "32px" }}>
@@ -15,12 +20,10 @@ const contact = () => (
           <Typography align="right">CONTACT</Typography>
         </Grid>
         <Grid item xs={8} sm={3}>
-          <Typography sx={{ fontWeight: 900 }}>Email</Typography>
-          <Typography>charisaking1@gmail.com</Typography>
+          <Typography sx={{ fontWeight: 900 }}>Email: {UTF8ArrToStr(base64DecToArr(email))}</Typography>
           <Typography sx={{ fontWeight: 900, marginTop: "16px" }}>
-            Phone
+            Phone: {UTF8ArrToStr(base64DecToArr(phone))}
           </Typography>
-          <Typography>(435) 850-9535</Typography>
         </Grid>
         <Grid item xs={4} sm={3}>
           <Typography align="right">SOCIAL</Typography>
@@ -41,4 +44,4 @@ const contact = () => (
   </Box>
 );
 
-export default contact; 
+export default contact;
