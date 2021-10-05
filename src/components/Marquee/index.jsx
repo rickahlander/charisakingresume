@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
-import img from "../../assets/images/charisa-zions.jpg";
+import img from "../../assets/images/charisa-zions.jpeg";
 import Grid from "@mui/material/Grid";
 
 export default function PaperSheet() {
@@ -10,7 +10,7 @@ export default function PaperSheet() {
       backgroundSize: "cover",
       height: "800px",
       maxHeight: "80vh",
-      padding: "16px"
+      padding: "16px",
     }}
       container
       direction="column"
