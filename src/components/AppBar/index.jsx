@@ -4,7 +4,9 @@ import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Hidden from "@mui/material/Hidden";
+import { Stack } from "@mui/material";
 import Box from "@mui/material/Box";
+import Resume from "../Resume";
 
 //ICONS
 import AboutIcon from "@mui/icons-material/LocalHospitalOutlined";
@@ -25,11 +27,6 @@ const buttons = [
     label: "about me",
     Icon: <AboutIcon />,
     key: "key4"
-  },
-  {
-    label: "resume",
-    Icon: <DescriptionIcon />,
-    key: "key6"
   },
   {
     label: "preceptorship requirements",
@@ -61,7 +58,16 @@ export default function ButtonAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color="secondary">
         <Toolbar>
-          {buttons.map(renderButton)}
+          <Grid container direction="row">
+            <Grid item md={10}>
+              <Stack direction="row" spacing={2}>
+                {buttons.map(renderButton)}
+              </Stack>
+            </Grid>
+            <Grid item md={2}>
+              <Resume />
+            </Grid>
+          </Grid>
         </Toolbar>
       </AppBar>
     </Box>

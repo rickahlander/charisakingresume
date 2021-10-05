@@ -10,7 +10,6 @@ const aboutText =
 
 const About = () => (
   <Grid sx={{
-    backgroundColor: "#607d8b",
     paddingTop: "16px",
     paddingBottom: "16px",
     paddingRight: "16px",
@@ -22,12 +21,12 @@ const About = () => (
     justifyContent="flex-start"
   >
     <Grid item xs={12} sm={2} md={2}>
-      <Typography align="left" sx={{ color: "white" }}>
+      <Typography align="left">
         ABOUT
       </Typography>
     </Grid>
     <Grid item xs={12} sm={10} md={10}>
-      <Typography align="left" sx={{ color: "white" }}>
+      <Typography align="left">
         {aboutText}
       </Typography>
     </Grid>

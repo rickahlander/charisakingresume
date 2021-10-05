@@ -34,11 +34,7 @@ function App() {
         <Box name="about me">
           <About />
         </Box>
-        <Hidden smDown>
-          <Box name="resume">
-            <Resume />
-          </Box>
-        </Hidden>
+        <Box></Box>
         <Box name="preceptorship requirements">
           <Requirements />
         </Box>
