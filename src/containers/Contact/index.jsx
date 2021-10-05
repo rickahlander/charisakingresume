@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import openInNewTab from "../../utils/openInNewTab";
 import Box from "@mui/material/Box"
 import { UTF8ArrToStr, base64DecToArr } from "../../utils/Obfuscate"
+import ContactIcon from "@mui/icons-material/ContactMail";
 
 
 const email = "Y2hhcmlzYWtpbmcxQGdtYWlsLmNvbQ==";
@@ -17,7 +18,7 @@ const contact = () => (
     <Paper sx={{ padding: "30px 20px" }}>
       <Grid container direction="row" justifyContent="flex-start" alignItems="center" spacing={4}>
         <Grid item xs={4} sm={3}>
-          <Typography align="right">CONTACT</Typography>
+          <Typography align="right"><ContactIcon/> CONTACT</Typography>
         </Grid>
         <Grid item xs={8} sm={3}>
           <Typography sx={{ fontWeight: 900 }}>Email: {resultEmail}

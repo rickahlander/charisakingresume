@@ -9,6 +9,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import TimelineIcon from "@mui/icons-material/Timeline";
 
 const renderProjectCard = (
   { header, subheader, title, date }
@@ -34,7 +35,7 @@ const projects = () => (
   <Grid container justifyContent="center">
     <Grid item xs={12} sm={10} md={8} sx={{ paddingTop: "16px" }}>
       <Typography align="center" variant="h4">
-        WORK EXPERIENCE</Typography>
+        <TimelineIcon/> WORK EXPERIENCE</Typography>
     </Grid>
     <Grid item xs={12} sm={10} md={8}>
       <Timeline >

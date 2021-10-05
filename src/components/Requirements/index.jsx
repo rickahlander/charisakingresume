@@ -7,6 +7,8 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Typography from "@mui/material/Typography";
+
+// Icons
 import ChildCareIcon from '@mui/icons-material/ChildCare';
 import PersonIcon from '@mui/icons-material/Person';
 import ElderlyIcon from '@mui/icons-material/Elderly';
@@ -15,6 +17,7 @@ import MoodBadIcon from '@mui/icons-material/MoodBad';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PhoneIcon from '@mui/icons-material/Phone';
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
 const Requirements = () => (
   <Grid sx={{
@@ -34,7 +37,7 @@ const Requirements = () => (
 
     }}>
       <Typography align="center" sx={{ color: "white" }} variant="h4">
-        PRECEPTORSHIP REQUIREMENTS
+        <FormatListBulletedIcon/> PRECEPTORSHIP REQUIREMENTS
       </Typography>
     </Grid>
     <Grid item xs={12} sm={12} md={12}>

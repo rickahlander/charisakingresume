@@ -8,10 +8,11 @@ import Box from "@mui/material/Box";
 import Resume from "../Resume";
 
 //ICONS
-import AboutIcon from "@mui/icons-material/LocalHospitalOutlined";
 import TimelineIcon from "@mui/icons-material/Timeline";
 import ContactIcon from "@mui/icons-material/ContactMail";
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
+import PersonIcon from '@mui/icons-material/Person';
+
 
 //REACT SCROLL
 import {Link} from "react-scroll";
@@ -19,7 +20,7 @@ import {Link} from "react-scroll";
 const buttons = [
   {
     label: "about me",
-    Icon: <AboutIcon />,
+    Icon: <PersonIcon />,
     key: "key4"
   },
   {
