@@ -1,5 +1,4 @@
 import React from "react";
-import Resume from "../../assets/Charisa-Resume-2021.pdf";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import { Stack } from "@mui/material";
@@ -9,7 +8,7 @@ const resume = () => (
   <Box>
     <Stack direction = "row" spacing = {2}>
     <Button variant="outlined">
-      <Link href={Resume} underline="none" target="_blank">Click to Download PDF Resume</Link>
+      <Link href={process.env.PUBLIC_URL + "/Charisa-Resume-2021.pdf"} underline="none" type = "application/pdf" target="_blank">Click to Download PDF Resume</Link>
       </Button>
     </Stack>
   </Box>
