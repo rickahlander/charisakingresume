@@ -55,7 +55,7 @@ export default function ButtonAppBar() {
         <Toolbar>
           <Grid container direction="row">
             <Grid item md={10}>
-              <Stack direction="row" spacing={2}>
+              <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 4 }}>
                 {buttons.map(renderButton)}
               </Stack>
             </Grid>

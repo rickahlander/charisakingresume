@@ -6,16 +6,15 @@ import Grid from "@mui/material/Grid";
 export default function PaperSheet() {
   return (
     <Grid sx={{
-      background: `url(${img}) no-repeat center top;`,
-      backgroundSize: "cover",
+      background: `url(${img}) no-repeat;`,
       height: "800px",
-      maxHeight: "80vh",
-      padding: "16px",
+      maxHeight: "100vh",
+      backgroundSize: "cover"
     }}
       container
       direction="column"
       alignItems="center"
-      justifyContent="center"
+      justifyContent="top"
     >
       <Grid item>
         <Typography sx={{ color: "white" }} variant="h1">
@@ -31,8 +30,6 @@ export default function PaperSheet() {
         <Typography sx={{ color: "white" }} variant="h6">
         Seeking PMHNP Clinical Preceptorship - Fall 2022
         </Typography>
-      </Grid>
-      <Grid item xs={8}>
       </Grid>
     </Grid>
   );

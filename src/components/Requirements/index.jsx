@@ -55,7 +55,7 @@ const Requirements = () => (
             alignItems="flex-start"
             justifyContent="flex-start"
           >
-            <Grid item xs={6} sm={6} md={6}>
+            <Grid item xs={12} sm={6} md={6}>
               <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                 <ListItem>
                   <ListItemAvatar>
@@ -91,7 +91,7 @@ const Requirements = () => (
                 </ListItem>
               </List>
             </Grid>
-            <Grid item xs={6} sm={6} md={6}>
+            <Grid item xs={12} sm={6} md={6}>
               <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                 <ListItem>
                   <ListItemAvatar>
