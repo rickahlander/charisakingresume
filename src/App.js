@@ -31,7 +31,7 @@ function App() {
       <Box>
         <AppBar />
         <Marquee />
-        <Box name="about">
+        <Box name="about me">
           <About />
         </Box>
         <Hidden smDown>
@@ -39,10 +39,10 @@ function App() {
             <Resume />
           </Box>
         </Hidden>
-        <Box name="requirements">
+        <Box name="preceptorship requirements">
           <Requirements />
         </Box>
-        <Box name="timeline">
+        <Box name="work experience">
           <Projects />
         </Box>
         <Box name="portfolio">

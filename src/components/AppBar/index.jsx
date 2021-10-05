@@ -10,11 +10,14 @@ import Box from "@mui/material/Box";
 import AboutIcon from "@mui/icons-material/LocalHospitalOutlined";
 import TimelineIcon from "@mui/icons-material/Timeline";
 import ContactIcon from "@mui/icons-material/ContactMail";
+import DescriptionIcon from '@mui/icons-material/Description';
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
 //REACT SCROLL
 import {
   Link,
 } from "react-scroll";
+import { IconButton } from "@mui/material";
 
 
 const buttons = [
@@ -24,7 +27,17 @@ const buttons = [
     key: "key4"
   },
   {
-    label: "experience",
+    label: "resume",
+    Icon: <DescriptionIcon />,
+    key: "key6"
+  },
+  {
+    label: "preceptorship requirements",
+    Icon: <FormatListBulletedIcon />,
+    key: "key7"
+  },
+  {
+    label: "work experience",
     Icon: <TimelineIcon />,
     key: "key5"
   },
@@ -43,22 +56,12 @@ const renderButton = ({ label, Icon, key }) => (
   </Link>
 );
 
-export default function ButtonAppBar({ isDarkTheme, setUseDarkTheme }) {
+export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color="secondary">
         <Toolbar>
-          <Grid direction="row" container justifyContent="space-between">
-            <Grid item>
-              <Grid direction="row" container justifyContent="flex-start">
-                <Hidden smDown>
-                  <Grid item>
-                    {buttons.map(renderButton)}
-                  </Grid>
-                </Hidden>
-              </Grid>
-            </Grid>
-          </Grid>
+          {buttons.map(renderButton)}
         </Toolbar>
       </AppBar>
     </Box>

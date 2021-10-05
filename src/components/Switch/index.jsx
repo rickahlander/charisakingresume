@@ -51,19 +51,12 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 export default function SwitchLabels({
-  label,
-  isDarkTheme,
-  setUseDarkTheme
+  label
 }) {
   return (
     <FormControlLabel
       control={
-        <MaterialUISwitch
-          checked={isDarkTheme}
-          onChange={e => {
-            setUseDarkTheme(e.target.checked);
-          }}
-        />
+        <MaterialUISwitch/>
       }
       label={label}
     />

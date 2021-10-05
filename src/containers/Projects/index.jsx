@@ -1,23 +1,21 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-// import Grid from "@mui/material/Grid";
 import listProjects from "./projects";
-// import MediaCard from "../../components/MediaCard";
 import AboutIcon from "@mui/icons-material/LocalHospitalOutlined";
-
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import TimelineDot from '@mui/lab/TimelineDot';
 
 const renderProjectCard = (
   { header, subheader, title, date, key }
 ) => (
-  <VerticalTimelineElement
+  <TimelineItem
     key={key}
-    className="vertical-timeline-element--work"
     contentStyle={{
       background: "#607d8b",
       color: "#000",
@@ -27,28 +25,33 @@ const renderProjectCard = (
     iconStyle={{ background: "#607d8b", color: "#fff" }}
     icon={<AboutIcon />}
   >
-    <Typography variant="h5" align="left" sx={{ color: "#fff" }}>
-      {header}
-    </Typography>
-    <Typography variant="subtitle1" align="left" sx={{ color: "#fff" }}>
+    <TimelineContent><Typography variant="h6" component="span">
       {subheader}
     </Typography>
-    <Typography variant="body2" align="left" sx={{ color: "#fff" }}>
-      {title}
-    </Typography>
-  </VerticalTimelineElement>
+      <Typography>{header}</Typography>
+      <Typography>{date}</Typography>
+      </TimelineContent>
+    <TimelineSeparator>
+      <TimelineDot />
+      <TimelineConnector />
+    </TimelineSeparator>
+    <TimelineOppositeContent color="text.secondary" sx={{ py: '12px', px: 2 }}>
+      <Typography align="left" >{title}</Typography>
+      
+    </TimelineOppositeContent>
+  </TimelineItem>
 );
 
 const projects = () => (
   <Grid container justifyContent="center">
-    <Grid item xs={12} sm={10} md={8} sx={{paddingTop: "16px"}}>
-    <Typography align="center" variant="h4">
-      WORK EXPERIENCE</Typography>
-      </Grid>
+    <Grid item xs={12} sm={10} md={8} sx={{ paddingTop: "16px" }}>
+      <Typography align="center" variant="h4">
+        WORK EXPERIENCE</Typography>
+    </Grid>
     <Grid item xs={12} sm={10} md={8}>
-      <VerticalTimeline>
+      <Timeline >
         {listProjects.map((e) => renderProjectCard(e))}
-      </VerticalTimeline>
+      </Timeline>
     </Grid>
   </Grid>
 );

@@ -3,14 +3,13 @@ import Typography from "@mui/material/Typography";
 import img from "../../assets/images/charisa-zions.jpg";
 import Grid from "@mui/material/Grid";
 
-export default function PaperSheet({ isDarkTheme }) {
+export default function PaperSheet() {
   return (
     <Grid sx={{
       background: `url(${img}) no-repeat center top;`,
       backgroundSize: "cover",
       height: "800px",
       maxHeight: "80vh",
-      filter: isDarkTheme ? "grayscale(100%)" : "",
       padding: "16px"
     }}
       container
@@ -30,7 +29,7 @@ export default function PaperSheet({ isDarkTheme }) {
       </Grid>
       <Grid item>
         <Typography sx={{ color: "white" }} variant="h6">
-        Seeking PMHNP Clinical Preceptorship beginning January 2022 - April 2022
+        Seeking PMHNP Clinical Preceptorship - Fall 2022
         </Typography>
       </Grid>
       <Grid item xs={8}>

@@ -68,7 +68,7 @@ const Requirements = () => (
                       <ChildCareIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="50 Child or Adolescent visits" />
+                  <ListItemText primary="50 Child or Adolescent Visits" />
                 </ListItem>
                 <ListItem>
                   <ListItemAvatar>
@@ -84,7 +84,7 @@ const Requirements = () => (
                       <MoodBadIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="50 Substance Use Disorder Management visits" />
+                  <ListItemText primary="50 Substance Use Disorder Management Visits" />
                 </ListItem>
               </List>
             </Grid>
@@ -96,7 +96,7 @@ const Requirements = () => (
                       <LocalHospitalIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="20 Acute/Crisis Care Management visits" />
+                  <ListItemText primary="20 Acute/Crisis Care Management Visits" />
                 </ListItem>
                 <ListItem>
                   <ListItemAvatar>
@@ -104,7 +104,7 @@ const Requirements = () => (
                       <ElderlyIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="20 Geriatric visits" />
+                  <ListItemText primary="20 Geriatric Visits" />
                 </ListItem>
                 <ListItem>
                   <ListItemAvatar>
@@ -112,7 +112,7 @@ const Requirements = () => (
                       <PsychologyIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="20 Psychotherapy sessions" />
+                  <ListItemText primary="20 Psychotherapy Sessions" />
                 </ListItem>
                 <ListItem>
                   <ListItemAvatar>
@@ -120,7 +120,7 @@ const Requirements = () => (
                       <PhoneIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="A portion of required hours may be completed via telehealth" />
+                  <ListItemText primary="* A portion of required hours may be completed via telehealth" />
                 </ListItem>
               </List>
             </Grid>

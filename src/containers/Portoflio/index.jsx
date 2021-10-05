@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
+import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import List from "@mui/material/List";
@@ -12,7 +13,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import GroupIcon from '@mui/icons-material/Group';
 
 
-const portfolio = ({ useDarkTheme }) => {
+const portfolio = () => {
   return (
     <Grid sx={{
       backgroundColor: "#607d8b",
@@ -30,9 +31,12 @@ const portfolio = ({ useDarkTheme }) => {
         paddingBottom: "16px",
   
       }}>
+        <Box>
+        
         <Typography align="center" sx={{ color: "white" }} variant="h4">
-          EDUCATION / CREDENTIALS / ASSOCIATIONS
+        <SchoolIcon /> EDUCATION &nbsp;-&nbsp; <MedicalServicesIcon /> CREDENTIALS &nbsp;-&nbsp; <GroupIcon /> ASSOCIATIONS
         </Typography>
+        </Box>
       </Grid>
       <Grid item xs={12} sm={12} md={12}>
         <Grid item xs={12} sm={12} md={12}>
