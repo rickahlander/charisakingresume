@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import AppBar from "./components/AppBar";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme, responsiveFontSizes } from "@mui/material/styles"
 import Marquee from "./components/Marquee";
 import primaryColor from "@mui/material/colors/pink";
 import About from "./components/About";
+import Requirements from "./components/Requirements"
 import Projects from "./containers/Projects";
 import Portfolio from "./containers/Portoflio";
 import Contact from "./containers/Contact";
@@ -13,14 +14,13 @@ import Hidden from "@mui/material/Hidden";
 import Box from "@mui/material/Box";
 
 function App() {
-  const [useDarkTheme, setUseDarkTheme] = useState(true);
   let theme = createTheme({
     palette: {
-      mode: useDarkTheme ? "dark" : "light",
+      mode: "light",
       primary: primaryColor,
       secondary: {
-        main: useDarkTheme ? "#000" : "#fff",
-        contrastText: useDarkTheme ? "#fff" : "#000",
+        main: "#fff",
+        contrastText: "#000",
       },
     },
   });
@@ -29,8 +29,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Box>
-        <AppBar isDarkTheme={useDarkTheme} setUseDarkTheme={setUseDarkTheme} />
-        <Marquee isDarkTheme={useDarkTheme}/>
+        <AppBar />
+        <Marquee />
         <Box name="about">
           <About />
         </Box>
@@ -39,17 +39,20 @@ function App() {
             <Resume />
           </Box>
         </Hidden>
+        <Box name="requirements">
+          <Requirements />
+        </Box>
         <Box name="timeline">
-          <Projects useDarkTheme={useDarkTheme} />
+          <Projects />
         </Box>
         <Box name="portfolio">
-          <Portfolio useDarkTheme={useDarkTheme} />
+          <Portfolio />
         </Box>
         <Box name="contact">
           <Contact />
         </Box>
       </Box>
-   </ThemeProvider>
+    </ThemeProvider>
 
   );
 }

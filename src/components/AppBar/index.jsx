@@ -2,7 +2,6 @@ import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
-import Switch from "../Switch";
 import Grid from "@mui/material/Grid";
 import Hidden from "@mui/material/Hidden";
 import Box from "@mui/material/Box";
@@ -57,17 +56,6 @@ export default function ButtonAppBar({ isDarkTheme, setUseDarkTheme }) {
                     {buttons.map(renderButton)}
                   </Grid>
                 </Hidden>
-              </Grid>
-            </Grid>
-            <Grid item>
-              <Grid direction="row" container justifyContent="flex-end">
-                <Grid item>
-                  <Switch
-                    label="Dark Theme"
-                    isDarkTheme={isDarkTheme}
-                    setUseDarkTheme={setUseDarkTheme}
-                  />
-                </Grid>
               </Grid>
             </Grid>
           </Grid>

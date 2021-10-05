@@ -28,6 +28,11 @@ export default function PaperSheet({ isDarkTheme }) {
           PMHNP Candidate and Registered Nurse
         </Typography>
       </Grid>
+      <Grid item>
+        <Typography sx={{ color: "white" }} variant="h6">
+        Seeking PMHNP Clinical Preceptorship beginning January 2022 - April 2022
+        </Typography>
+      </Grid>
       <Grid item xs={8}>
       </Grid>
     </Grid>
