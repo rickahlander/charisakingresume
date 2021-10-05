@@ -9,12 +9,12 @@ export default function PaperSheet() {
       background: `url(${img}) no-repeat;`,
       height: "800px",
       maxHeight: "100vh",
-      backgroundSize: "cover"
+      backgroundSize: "cover",
     }}
       container
       direction="column"
       alignItems="center"
-      justifyContent="top"
+      justifyContent="center"
     >
       <Grid item>
         <Typography sx={{ color: "white" }} variant="h1">
