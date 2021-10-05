@@ -2,7 +2,6 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import listProjects from "./projects";
-import AboutIcon from "@mui/icons-material/LocalHospitalOutlined";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -12,32 +11,21 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
 const renderProjectCard = (
-  { header, subheader, title, date, key }
+  { header, subheader, title, date }
 ) => (
-  <TimelineItem
-    key={key}
-    contentStyle={{
-      background: "#607d8b",
-      color: "#000",
-    }}
-    contentArrowStyle={{ borderRight: "7px solid  #607d8b" }}
-    date={<p style={{ color: "#fff" }}>{date}</p>}
-    iconStyle={{ background: "#607d8b", color: "#fff" }}
-    icon={<AboutIcon />}
-  >
+  <TimelineItem>
     <TimelineContent><Typography variant="h6" component="span">
       {subheader}
     </Typography>
       <Typography>{header}</Typography>
       <Typography>{date}</Typography>
-      </TimelineContent>
+    </TimelineContent>
     <TimelineSeparator>
       <TimelineDot />
       <TimelineConnector />
     </TimelineSeparator>
     <TimelineOppositeContent color="text.secondary" sx={{ py: '12px', px: 2 }}>
       <Typography align="left" >{title}</Typography>
-      
     </TimelineOppositeContent>
   </TimelineItem>
 );

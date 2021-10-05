@@ -1,6 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import Paper from "@mui/material/Paper";
 
 const aboutText =
   "I am a registered nurse specializing in psychiatric, home-care, and hospice.  " + 
@@ -9,6 +10,7 @@ const aboutText =
   "Below you will find all the details about my experience and what I am looking for in this opportunity.";
 
 const About = () => (
+  
   <Grid sx={{
     paddingTop: "16px",
     paddingBottom: "16px",
@@ -20,17 +22,25 @@ const About = () => (
     alignItems="flex-start"
     justifyContent="flex-start"
   >
-    <Grid item xs={12} sm={2} md={2}>
-      <Typography align="left">
-        ABOUT
+  <Paper elevation = "10">  
+    <Grid item xs={12} sm={12} md={12}>
+      <Typography align="center" variant="h4">
+        ABOUT ME
       </Typography>
     </Grid>
-    <Grid item xs={12} sm={10} md={10}>
-      <Typography align="left">
+    <Grid item xs={12} sm={12} md={12}>
+      <Typography align="left" sx={{
+    paddingTop: "16px",
+    paddingBottom: "16px",
+    paddingRight: "16px",
+    paddingLeft: "16px"
+  }}>
         {aboutText}
       </Typography>
     </Grid>
+    </Paper>
   </Grid>
+  
 );
 
 export default About;

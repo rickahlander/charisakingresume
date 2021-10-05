@@ -3,7 +3,6 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
-import Hidden from "@mui/material/Hidden";
 import { Stack } from "@mui/material";
 import Box from "@mui/material/Box";
 import Resume from "../Resume";
@@ -12,15 +11,10 @@ import Resume from "../Resume";
 import AboutIcon from "@mui/icons-material/LocalHospitalOutlined";
 import TimelineIcon from "@mui/icons-material/Timeline";
 import ContactIcon from "@mui/icons-material/ContactMail";
-import DescriptionIcon from '@mui/icons-material/Description';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
 //REACT SCROLL
-import {
-  Link,
-} from "react-scroll";
-import { IconButton } from "@mui/material";
-
+import {Link} from "react-scroll";
 
 const buttons = [
   {

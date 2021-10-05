@@ -18,7 +18,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 const Requirements = () => (
   <Grid sx={{
-    backgroundColor: "#607d8b",
+    backgroundColor: "secondary.main",
     paddingTop: "16px",
     paddingBottom: "16px",
     paddingRight: "16px",

@@ -16,7 +16,7 @@ import GroupIcon from '@mui/icons-material/Group';
 const portfolio = () => {
   return (
     <Grid sx={{
-      backgroundColor: "#607d8b",
+      backgroundColor: "secondary.main",
       paddingTop: "16px",
       paddingBottom: "16px",
       paddingRight: "16px",

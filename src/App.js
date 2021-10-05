@@ -3,27 +3,29 @@ import AppBar from "./components/AppBar";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme, responsiveFontSizes } from "@mui/material/styles"
 import Marquee from "./components/Marquee";
-import primaryColor from "@mui/material/colors/pink";
 import About from "./components/About";
 import Requirements from "./components/Requirements"
 import Projects from "./containers/Projects";
 import Portfolio from "./containers/Portoflio";
 import Contact from "./containers/Contact";
-import Resume from "./components/Resume";
-import Hidden from "@mui/material/Hidden";
 import Box from "@mui/material/Box";
 
 function App() {
   let theme = createTheme({
     palette: {
-      mode: "light",
-      primary: primaryColor,
+      primary: {
+        light: '#344955',
+        main: '#232F34',
+        dark: '#232F34',
+        contrastText: '#fff',
+      },
       secondary: {
-        main: "#fff",
-        contrastText: "#000",
+        main: '#F9AA33',
+        contrastText: '#000',
       },
     },
   });
+
   theme = responsiveFontSizes(theme);
   return (
     <ThemeProvider theme={theme}>
@@ -34,7 +36,6 @@ function App() {
         <Box name="about me">
           <About />
         </Box>
-        <Box></Box>
         <Box name="preceptorship requirements">
           <Requirements />
         </Box>
