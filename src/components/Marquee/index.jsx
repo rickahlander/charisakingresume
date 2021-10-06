@@ -4,8 +4,6 @@ import Grid from "@mui/material/Grid";
 import BackgroundImage from "../../assets/images/charisa-zions.jpeg";
 
 export default function PaperSheet() {
-  const imgUrl = "public/charisa-zions.jpeg";
-  console.info(imgUrl);
   return (
     <Grid sx={{
       background: `url(${BackgroundImage}) no-repeat;`,

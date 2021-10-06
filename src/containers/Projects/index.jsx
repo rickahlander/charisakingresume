@@ -12,9 +12,9 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineIcon from "@mui/icons-material/Timeline";
 
 const renderProjectCard = (
-  { header, subheader, title, date }
+  { header, subheader, title, date, key }
 ) => (
-  <TimelineItem>
+  <TimelineItem key={key}>
     <TimelineContent><Typography variant="h6" component="span">
       {subheader}
     </Typography>

@@ -24,7 +24,7 @@ const About = () => (
     alignItems="flex-start"
     justifyContent="flex-start"
   >
-  <Paper elevation = "10">  
+  <Paper elevation = {10}>  
     <Grid item xs={12} sm={12} md={12}>
       <Typography align="center" variant="h4">
         <PersonIcon/> ABOUT ME

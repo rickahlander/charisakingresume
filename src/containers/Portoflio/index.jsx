@@ -70,7 +70,7 @@ const portfolio = () => {
               justifyContent="flex-start"
             >
               <Grid item xs={12} sm={6} md={4}>
-                <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+                <List sx={{ width: '100%', maxWidth: 360, backgroundColor: 'background.paper' }}>
                   <ListItem>
                     <ListItemAvatar>
                       <Avatar>
