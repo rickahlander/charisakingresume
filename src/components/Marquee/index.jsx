@@ -1,11 +1,14 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
+import BackgroundImage from "../../assets/images/charisa-zions.jpeg";
 
 export default function PaperSheet() {
+  const imgUrl = "public/charisa-zions.jpeg";
+  console.info(imgUrl);
   return (
     <Grid sx={{
-      background: `url(${process.env.PUBLIC_URL + "charisa-zions.jpeg"}) no-repeat;`,
+      background: `url(${BackgroundImage}) no-repeat;`,
       height: "800px",
       maxHeight: "100vh",
       backgroundSize: "cover",
