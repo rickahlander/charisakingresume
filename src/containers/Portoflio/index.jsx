@@ -115,7 +115,14 @@ const portfolio = () => {
                     </ListItemAvatar>
                     <ListItemText primary="Registered Nurse, Oregon" secondary="Exp. 11/5/2023" />
                   </ListItem>
-
+                  <ListItem>
+                    <ListItemAvatar>
+                      <Avatar>
+                        <MedicalServicesIcon />
+                      </Avatar>
+                    </ListItemAvatar>
+                    <ListItemText primary="Advanced Cardiac Life Support" secondary="Exp. 04/15/2022" />
+                  </ListItem>
                 </List>
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
