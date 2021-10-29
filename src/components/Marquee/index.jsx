@@ -6,8 +6,8 @@ import Box from "@mui/material/Box";
 
 export default function PaperSheet() {
   return (
-    <Grid container direction="row">
-    <Grid xs={4} sx={{
+    <Grid container direction="row" sx={{bgcolor: 'primary.main'}}>
+    <Grid xs={12} sm={4} sx={{
       background: `url(${BusinessImage}) no-repeat;`,
       height: "800px",
       maxHeight: "80vh",
@@ -20,7 +20,7 @@ export default function PaperSheet() {
       justifyContent="center"
     >
     </Grid>
-    <Grid xs={8} sx={{bgcolor: 'primary.main'}}
+    <Grid xs={12} sm={8} sx={{bgcolor: 'primary.main'}}
       container
       direction="column"
       alignItems="center"
