@@ -1,7 +1,7 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-import BusinessImage from "../../assets/images/charisa-business-photo.JPG";
+import BusinessImage from "../../assets/images/charisa-business-photo.jpeg";
 import Box from "@mui/material/Box";
 
 export default function PaperSheet() {
