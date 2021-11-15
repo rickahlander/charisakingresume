@@ -2,46 +2,45 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import BusinessImage from "../../assets/images/charisa-business-photo.jpeg";
-import Box from "@mui/material/Box";
 
 export default function PaperSheet() {
   return (
-    <Grid container direction="row" sx={{bgcolor: 'primary.main'}}>
-    <Grid xs={12} sm={4} sx={{
-      background: `url(${BusinessImage}) no-repeat;`,
-      height: "800px",
-      maxHeight: "80vh",
-      backgroundPosition: "left top",
-      backgroundSize: "100%"
-    }}
-      container
-      direction="column"
-      alignItems="center"
-      justifyContent="center"
-    >
-    </Grid>
-    <Grid xs={12} sm={8} sx={{bgcolor: 'primary.main'}}
-      container
-      direction="column"
-      alignItems="center"
-      justifyContent="center"
-    >
-      <Grid item>
-        <Typography sx={{ color: "white" }} variant="h1">
-          Charisa King
-        </Typography>
+    <Grid container direction="row" sx={{ bgcolor: 'primary.main' }}>
+      <Grid xs={12} sm={4} sx={{
+        background: `url(${BusinessImage}) no-repeat;`,
+        height: "800px",
+        maxHeight: "80vh",
+        backgroundPosition: "left top",
+        backgroundSize: "100%"
+      }}
+        container
+        direction="column"
+        alignItems="center"
+        justifyContent="center"
+      >
       </Grid>
-      <Grid item>
-        <Typography sx={{ color: "white" }} variant="h4">
-          PMHNP Candidate and Registered Nurse
-        </Typography>
+      <Grid xs={12} sm={8} sx={{ bgcolor: 'primary.main' }}
+        container
+        direction="column"
+        alignItems="center"
+        justifyContent="center"
+      >
+        <Grid item>
+          <Typography sx={{ color: "white" }} variant="h1">
+            Charisa King
+          </Typography>
+        </Grid>
+        <Grid item>
+          <Typography sx={{ color: "white" }} variant="h4">
+            PMHNP Candidate and Registered Nurse
+          </Typography>
+        </Grid>
+        <Grid item>
+          <Typography sx={{ color: "white" }} variant="h6">
+            Seeking PMHNP Clinical Preceptorship - Beginning Late October 2022
+          </Typography>
+        </Grid>
       </Grid>
-      <Grid item>
-        <Typography sx={{ color: "white" }} variant="h6">
-        Seeking PMHNP Clinical Preceptorship - Fall 2022
-        </Typography>
-      </Grid>
-    </Grid>
     </Grid>
   );
 }
