@@ -85,7 +85,7 @@ const portfolio = () => {
                         <SchoolIcon />
                       </Avatar>
                     </ListItemAvatar>
-                    <ListItemText primary="BS Nursing" secondary="Weber State University - April 2019 - Summa Cum Laude" />
+                    <ListItemText primary="BS Nursing" secondary="Weber State University - April 2017 - Summa Cum Laude" />
                   </ListItem>
                   <ListItem>
                     <ListItemAvatar>
