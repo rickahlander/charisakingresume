@@ -6,20 +6,7 @@ import BusinessImage from "../../assets/images/charisa-business-photo.jpeg";
 export default function PaperSheet() {
   return (
     <Grid container direction="row" sx={{ bgcolor: 'primary.main' }}>
-      <Grid xs={12} sm={4} sx={{
-        background: `url(${BusinessImage}) no-repeat;`,
-        height: "800px",
-        maxHeight: "80vh",
-        backgroundPosition: "left top",
-        backgroundSize: "100%"
-      }}
-        container
-        direction="column"
-        alignItems="center"
-        justifyContent="center"
-      >
-      </Grid>
-      <Grid xs={12} sm={8} sx={{ bgcolor: 'primary.main' }}
+      <Grid xs={12} sm={10} sx={{ bgcolor: 'primary.main' }}
         container
         direction="column"
         alignItems="center"
@@ -35,11 +22,29 @@ export default function PaperSheet() {
             PMHNP Candidate and Registered Nurse
           </Typography>
         </Grid>
-        <Grid item>
+        <Grid item spacing="10">
           <Typography sx={{ color: "white" }} variant="h6">
-            Seeking PMHNP Clinical Preceptorship - Beginning Late October 2022
+            Seeking PMHNP Clinical Preceptorship
           </Typography>
         </Grid>
+        <Grid item spacing="10">
+          <Typography sx={{ color: "white" }} variant="h6">
+            Beginning Late October 2022
+          </Typography>
+        </Grid>
+      </Grid>
+      <Grid xs={12} sm={2} sx={{
+        background: `url(${BusinessImage}) no-repeat;`,
+        height: "300px",
+        maxHeight: "40vh",
+        backgroundPosition: "left top",
+        backgroundSize: "100%"
+      }}
+        container
+        direction="column"
+        alignItems="center"
+        justifyContent="center"
+      >
       </Grid>
     </Grid>
   );

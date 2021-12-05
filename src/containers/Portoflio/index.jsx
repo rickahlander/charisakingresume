@@ -77,7 +77,7 @@ const portfolio = () => {
                         <SchoolIcon />
                       </Avatar>
                     </ListItemAvatar>
-                    <ListItemText primary="PMHNP Candidate" secondary="Frontier Nursing University - Current" />
+                    <ListItemText primary="PMHNP Candidate" secondary="Frontier Nursing University - Current - GPA 4.0" />
                   </ListItem>
                   <ListItem>
                     <ListItemAvatar>
@@ -85,7 +85,7 @@ const portfolio = () => {
                         <SchoolIcon />
                       </Avatar>
                     </ListItemAvatar>
-                    <ListItemText primary="BS Nursing" secondary="Weber State University - April 2019" />
+                    <ListItemText primary="BS Nursing" secondary="Weber State University - April 2019 - Summa Cum Laude" />
                   </ListItem>
                   <ListItem>
                     <ListItemAvatar>
@@ -93,7 +93,7 @@ const portfolio = () => {
                         <SchoolIcon />
                       </Avatar>
                     </ListItemAvatar>
-                    <ListItemText primary="ADN" secondary="Weber State University - April 2010" />
+                    <ListItemText primary="ADN" secondary="Weber State University - April 2010 - High Honors" />
                   </ListItem>
                 </List>
               </Grid>
