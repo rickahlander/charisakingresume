@@ -123,7 +123,7 @@ const Requirements = () => (
                       <PhoneIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="* A portion of required hours may be completed via telehealth" />
+                  <ListItemText primary="* 470 hours may be completed via telehealth" />
                 </ListItem>
               </List>
             </Grid>

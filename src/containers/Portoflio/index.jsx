@@ -77,7 +77,7 @@ const portfolio = () => {
                         <SchoolIcon />
                       </Avatar>
                     </ListItemAvatar>
-                    <ListItemText primary="PMHNP Candidate" secondary="Frontier Nursing University - Current - GPA 4.0" />
+                    <ListItemText primary="PMHNP Candidate" secondary="Frontier Nursing University" />
                   </ListItem>
                   <ListItem>
                     <ListItemAvatar>
