@@ -14,15 +14,15 @@ export default function PaperSheet() {
       >
         <Grid item>
           <Typography sx={{ color: "white" }} variant="h1">
-            Charisa King
+            Charisa King, PMHNP
           </Typography>
         </Grid>
         <Grid item>
           <Typography sx={{ color: "white" }} variant="h4">
-            PMHNP Candidate and Registered Nurse
+          Psychiatric Mental Health Nurse Practitioner
           </Typography>
         </Grid>
-        <Grid item spacing="10">
+{/*         <Grid item spacing="10">
           <Typography sx={{ color: "white" }} variant="h6">
             Seeking PMHNP Clinical Preceptorship
           </Typography>
@@ -32,7 +32,7 @@ export default function PaperSheet() {
             Beginning Late October 2022
           </Typography>
         </Grid>
-      </Grid>
+ */}      </Grid>
       <Grid xs={12} sm={2} sx={{
         background: `url(${BusinessImage}) no-repeat;`,
         height: "300px",

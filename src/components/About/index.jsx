@@ -6,10 +6,10 @@ import PersonIcon from '@mui/icons-material/Person';
 
 
 const aboutText =
-  "I am a registered nurse specializing in psychiatric, home-care, and hospice.  " + 
-  "I am licensed in both Utah and Oregon.  " + 
-  "I am seeking a clinical preceptorship for my Psychiatric Mental Health Nurse Practitioner (PMHNP) program through Frontier Nursing University (FNU).  " + 
-  "Below you will find all the details about my experience and what I am looking for in this opportunity.";
+"Seeking a PMHNP position where I can utilize my clinical skills to provide " +
+"comprehensive mental health care to individuals across the lifespan. I am dedicated to " +
+"promoting mental wellness in the community, using evidence-based practices, and providing " +
+"compassionate patient-centered care.";
 
 const About = () => (
   
@@ -27,7 +27,7 @@ const About = () => (
   <Paper elevation = {10}>  
     <Grid item xs={12} sm={12} md={12}>
       <Typography align="center" variant="h4">
-        <PersonIcon/> ABOUT ME
+        <PersonIcon/> OBJECTIVE
       </Typography>
     </Grid>
     <Grid item xs={12} sm={12} md={12}>

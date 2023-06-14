@@ -19,12 +19,12 @@ import {Link} from "react-scroll";
 
 const buttons = [
   {
-    label: "about me",
+    label: "Objective",
     Icon: <PersonIcon />,
     key: "key4"
   },
   {
-    label: "preceptorship requirements",
+    label: "Experience Summary",
     Icon: <FormatListBulletedIcon />,
     key: "key7"
   },

@@ -37,7 +37,7 @@ const Requirements = () => (
 
     }}>
       <Typography align="center" sx={{ color: "white" }} variant="h4">
-        <FormatListBulletedIcon/> PRECEPTORSHIP REQUIREMENTS
+        <FormatListBulletedIcon/> Experience Summary
       </Typography>
     </Grid>
     <Grid item xs={12} sm={12} md={12}>
@@ -56,14 +56,14 @@ const Requirements = () => (
             justifyContent="flex-start"
           >
             <Grid item xs={12} sm={6} md={6}>
-              <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+              <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
                 <ListItem>
                   <ListItemAvatar>
                     <Avatar>
                       <AccessTimeIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="Min. 675 Clinical Hours" />
+                  <ListItemText primary="Proven expertise in providing comprehensive care to diverse patient populations, with particular emphasis on mental and behavioral health" />
                 </ListItem>
                 <ListItem>
                   <ListItemAvatar>
@@ -71,7 +71,7 @@ const Requirements = () => (
                       <ChildCareIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="50 Child or Adolescent Visits" />
+                  <ListItemText primary="Demonstrated ability to collaborate effectively with interdisciplinary teams, leading to successful treatment planning and care coordination" />
                 </ListItem>
                 <ListItem>
                   <ListItemAvatar>
@@ -79,27 +79,20 @@ const Requirements = () => (
                       <PersonIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="50 Adult Visits" />
+                  <ListItemText primary="Significant leadership experience, having overseen nursing teams and ensured compliance with healthcare regulations" />
                 </ListItem>
-                <ListItem>
-                  <ListItemAvatar>
-                    <Avatar>
-                      <MoodBadIcon />
-                    </Avatar>
-                  </ListItemAvatar>
-                  <ListItemText primary="50 Substance Use Disorder Management Visits" />
-                </ListItem>
+               
               </List>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
-              <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+              <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
                 <ListItem>
                   <ListItemAvatar>
                     <Avatar>
                       <LocalHospitalIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="20 Acute/Crisis Care Management Visits" />
+                  <ListItemText primary="Solid academic background in nursing with both MSN and BSN degrees, coupled with continuous professional development" />
                 </ListItem>
                 <ListItem>
                   <ListItemAvatar>
@@ -107,7 +100,7 @@ const Requirements = () => (
                       <ElderlyIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="20 Geriatric Visits" />
+                  <ListItemText primary="Distinguished for academic excellence with both BSN and MSN Summa Cum Laude honors" />
                 </ListItem>
                 <ListItem>
                   <ListItemAvatar>
@@ -115,16 +108,9 @@ const Requirements = () => (
                       <PsychologyIcon />
                     </Avatar>
                   </ListItemAvatar>
-                  <ListItemText primary="20 Psychotherapy Sessions" />
+                  <ListItemText primary="Engaged in global health initiatives through volunteering with International Medical Relief" />
                 </ListItem>
-                <ListItem>
-                  <ListItemAvatar>
-                    <Avatar>
-                      <PhoneIcon />
-                    </Avatar>
-                  </ListItemAvatar>
-                  <ListItemText primary="* 470 hours may be completed via telehealth" />
-                </ListItem>
+               
               </List>
             </Grid>
           </Grid>

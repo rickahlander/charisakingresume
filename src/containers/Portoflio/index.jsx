@@ -33,21 +33,22 @@ const portfolio = () => {
       }}>
         <Box>
 
-          <Typography align="center" sx={{ color: "white" }} variant="h4">
+          <Typography align="left" sx={{ color: "white" }} variant="h4">
             <Grid sx={{
             }}
               container
               direction="row"
               alignItems="flex-start"
               justifyContent="center"
+              paddingLeft="40px"
             >
-              <Grid item xs={12} sm={3}>
+              <Grid item xs={12} sm={6} md={4}>
                 <SchoolIcon /> EDUCATION
               </Grid>
-              <Grid item xs={12} sm={3}>
+              <Grid item xs={12} sm={6} md={4}>
                 <MedicalServicesIcon /> CREDENTIALS
               </Grid>
-              <Grid item xs={12} sm={3}>
+              <Grid item xs={12} sm={6} md={4}>
                 <GroupIcon /> ASSOCIATIONS
               </Grid>
             </Grid>
@@ -55,7 +56,6 @@ const portfolio = () => {
         </Box >
       </Grid >
       <Grid item xs={12} sm={12} md={12}>
-        <Grid item xs={12} sm={12} md={12}>
           <Paper>
             <Grid sx={{
               backgroundColor: "white",
@@ -77,7 +77,7 @@ const portfolio = () => {
                         <SchoolIcon />
                       </Avatar>
                     </ListItemAvatar>
-                    <ListItemText primary="PMHNP Candidate" secondary="Frontier Nursing University" />
+                    <ListItemText primary="MSN - PMHNP" secondary="Frontier Nursing University - June 2023 - Summa Cum Laude" />
                   </ListItem>
                   <ListItem>
                     <ListItemAvatar>
@@ -99,6 +99,14 @@ const portfolio = () => {
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+                <ListItem>
+                    <ListItemAvatar>
+                      <Avatar>
+                        <MedicalServicesIcon />
+                      </Avatar>
+                    </ListItemAvatar>
+                    <ListItemText primary="PMHNP-BC" secondary="07/01/2023" />
+                  </ListItem>
                   <ListItem>
                     <ListItemAvatar>
                       <Avatar>
@@ -143,12 +151,10 @@ const portfolio = () => {
                     </ListItemAvatar>
                     <ListItemText primary="Oregon Hospice and Palliative Care Association" />
                   </ListItem>
-
                 </List>
               </Grid>
             </Grid>
           </Paper>
-        </Grid>
       </Grid>
     </Grid >
   );
