@@ -6,10 +6,7 @@ import PersonIcon from '@mui/icons-material/Person';
 
 
 const aboutText =
-"Seeking a PMHNP position where I can utilize my clinical skills to provide " +
-"comprehensive mental health care to individuals across the lifespan. I am dedicated to " +
-"promoting mental wellness in the community, using evidence-based practices, and providing " +
-"compassionate patient-centered care.";
+"Secure a PMHNP position where I can utilize my clinical skills to provide comprehensive mental health care to individuals across the lifespan.";
 
 const About = () => (
   
@@ -21,8 +18,8 @@ const About = () => (
   }}
     container
     direction="row"
-    alignItems="flex-start"
-    justifyContent="flex-start"
+    alignItems="center"
+    justifyContent="center"
   >
   <Paper elevation = {10}>  
     <Grid item xs={12} sm={12} md={12}>

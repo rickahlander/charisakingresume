@@ -24,12 +24,12 @@ const buttons = [
     key: "key4"
   },
   {
-    label: "Experience Summary",
+    label: "Summary",
     Icon: <FormatListBulletedIcon />,
     key: "key7"
   },
   {
-    label: "work experience",
+    label: "experience",
     Icon: <TimelineIcon />,
     key: "key5"
   },

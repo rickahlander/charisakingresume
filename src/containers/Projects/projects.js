@@ -27,14 +27,14 @@ const projectList = [
     header: "Rocky Mtn Home Care & Hospice",
     subheader: "Director of Nursing",
     title:
-      "I have held a few different positions with Rocky Mountain Home Care during my 10-years of employment including home health case manager, assistant director of nursing, and director of nursing.  These positions have provided multiple responsibilities, which include but are not limited to, supervising RN case managers and CNAs, scheduling, auditing charts, compliance with CMS guidelines, and performance reviews.",
+      "Responsibilities include but are not limited to, supervising RN case managers, scheduling, auditing charts, compliance with CMS guidelines, and performance reviews. I also worked as an RN case manager for hospice and homecare during my time here.",
     date: "2010 - 2021",
     key: "key2"
   },
   {
     header: "Salt Lake Behavioral Health",
     subheader: "Psychiatric RN",
-    title: "Manage and provide nursing care on a variety of behavioral health units including general psych, chemical dependence, critical care, military trauma, adolescent, and geriatric psych. Work with an interdisciplinary mental health team.",
+    title: "Manage and provide nursing care on a variety of behavioral health units including general psych, chemical dependence, critical care, military trauma, adolescent, and geriatric psych.",
     date: "2016-2017",
     key: "key3"
   }

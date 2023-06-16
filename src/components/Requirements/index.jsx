@@ -17,7 +17,12 @@ import MoodBadIcon from '@mui/icons-material/MoodBad';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PhoneIcon from '@mui/icons-material/Phone';
+import GroupsIcon from '@mui/icons-material/Groups';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
+import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
+import SchoolIcon from "@mui/icons-material/School";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 
 const Requirements = () => (
   <Grid sx={{
@@ -60,7 +65,7 @@ const Requirements = () => (
                 <ListItem>
                   <ListItemAvatar>
                     <Avatar>
-                      <AccessTimeIcon />
+                      <PsychologyIcon />
                     </Avatar>
                   </ListItemAvatar>
                   <ListItemText primary="Proven expertise in providing comprehensive care to diverse patient populations, with particular emphasis on mental and behavioral health" />
@@ -68,7 +73,7 @@ const Requirements = () => (
                 <ListItem>
                   <ListItemAvatar>
                     <Avatar>
-                      <ChildCareIcon />
+                      <GroupsIcon />
                     </Avatar>
                   </ListItemAvatar>
                   <ListItemText primary="Demonstrated ability to collaborate effectively with interdisciplinary teams, leading to successful treatment planning and care coordination" />
@@ -76,7 +81,7 @@ const Requirements = () => (
                 <ListItem>
                   <ListItemAvatar>
                     <Avatar>
-                      <PersonIcon />
+                      <HealthAndSafetyIcon />
                     </Avatar>
                   </ListItemAvatar>
                   <ListItemText primary="Significant leadership experience, having overseen nursing teams and ensured compliance with healthcare regulations" />
@@ -89,7 +94,7 @@ const Requirements = () => (
                 <ListItem>
                   <ListItemAvatar>
                     <Avatar>
-                      <LocalHospitalIcon />
+                      <SchoolIcon />
                     </Avatar>
                   </ListItemAvatar>
                   <ListItemText primary="Solid academic background in nursing with both MSN and BSN degrees, coupled with continuous professional development" />
@@ -97,7 +102,7 @@ const Requirements = () => (
                 <ListItem>
                   <ListItemAvatar>
                     <Avatar>
-                      <ElderlyIcon />
+                      <EmojiEventsIcon />
                     </Avatar>
                   </ListItemAvatar>
                   <ListItemText primary="Distinguished for academic excellence with both BSN and MSN Summa Cum Laude honors" />
@@ -105,7 +110,7 @@ const Requirements = () => (
                 <ListItem>
                   <ListItemAvatar>
                     <Avatar>
-                      <PsychologyIcon />
+                      <VolunteerActivismIcon />
                     </Avatar>
                   </ListItemAvatar>
                   <ListItemText primary="Engaged in global health initiatives through volunteering with International Medical Relief" />

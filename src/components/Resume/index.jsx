@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import { Stack } from "@mui/material";
 import Link from "@mui/material/Link";
-import ResumePDF from "../../assets/Charisa-Resume-2021.pdf"
+import ResumePDF from "../../assets/Charisa Resume pmhnp 2023.pdf"
 
 const resume = () => (
   <Box>
