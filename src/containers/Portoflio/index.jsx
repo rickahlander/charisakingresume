@@ -105,9 +105,16 @@ const portfolio = () => {
                         <MedicalServicesIcon />
                       </Avatar>
                     </ListItemAvatar>
-                    <ListItemText primary="PMHNP-BC" secondary="07/01/2023" />
+                    <ListItemText primary="PMHNP-BC" secondary="07/18/2023" />
                   </ListItem>
                   <ListItem>
+                    <ListItemAvatar>
+                      <Avatar>
+                        <MedicalServicesIcon />
+                      </Avatar>
+                    </ListItemAvatar>
+                    <ListItemText primary="DEA Certification" secondary="Pending" />
+                  </ListItem>                  <ListItem>
                     <ListItemAvatar>
                       <Avatar>
                         <MedicalServicesIcon />
