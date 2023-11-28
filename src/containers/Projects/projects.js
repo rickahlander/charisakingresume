@@ -1,10 +1,17 @@
 const projectList = [
   {
-    header: "Forest Park Heathcare at Home",
+    header: "Pacific Northwest Behavioral Health",
+    subheader: "PMHNP - Psychiatric Mental Health Nurse Practitioner",
+    title:
+      "Board-Certified Psychiatric Mental Health Nurse Practitioner who provides mental health services to children, adolescents, and adults.",
+    date: "October 2023 - Current",
+    key: "key1"
+  },  {
+    header: "Forest Park Heath Care at Home",
     subheader: "Hospice RN",
     title:
       "Work closely with interdisciplinary team to provide end of life care to patients throughout the community. Nursing duties included: Thorough intake assessment of new patients, creation of treatment plans, collaboration with multiple team members, and continued monitoring, treatment and education to patients and their loved ones.",
-    date: "March 2023 - Current",
+    date: "March 2023 - October 2023",
     key: "key1"
   },
   {

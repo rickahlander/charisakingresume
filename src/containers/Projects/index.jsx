@@ -37,20 +37,20 @@ const projects = () => (
   <Grid container justifyContent="center">
     <Grid item xs={12} sm={10} md={8} sx={{ paddingTop: "16px" }}>
       <Typography align="center" variant="h4">
-        <TimelineIcon/> PMHNP CLINICAL INTERNSHIPS</Typography>
-    </Grid>
-    <Grid item xs={12} sm={10} md={8}>
-      <Timeline >
-        {internshipList.map((e) => renderProjectCard(e))}
-      </Timeline>
-    </Grid>
-    <Grid item xs={12} sm={10} md={8} sx={{ paddingTop: "16px" }}>
-      <Typography align="center" variant="h4">
         <TimelineIcon/> WORK EXPERIENCE</Typography>
     </Grid>
     <Grid item xs={12} sm={10} md={8}>
       <Timeline >
         {listProjects.map((e) => renderProjectCard(e))}
+      </Timeline>
+    </Grid>
+    <Grid item xs={12} sm={10} md={8} sx={{ paddingTop: "16px" }}>
+      <Typography align="center" variant="h4">
+        <TimelineIcon/> PMHNP CLINICAL INTERNSHIPS</Typography>
+    </Grid>
+    <Grid item xs={12} sm={10} md={8}>
+      <Timeline >
+        {internshipList.map((e) => renderProjectCard(e))}
       </Timeline>
     </Grid>
   </Grid>

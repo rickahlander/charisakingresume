@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import { Stack } from "@mui/material";
 import Box from "@mui/material/Box";
-import Resume from "../Resume";
+//import Resume from "../Resume";
 
 //ICONS
 import TimelineIcon from "@mui/icons-material/Timeline";
@@ -15,11 +15,11 @@ import PersonIcon from '@mui/icons-material/Person';
 
 
 //REACT SCROLL
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const buttons = [
   {
-    label: "Objective",
+    label: "Background",
     Icon: <PersonIcon />,
     key: "key4"
   },
@@ -59,9 +59,11 @@ export default function ButtonAppBar() {
                 {buttons.map(renderButton)}
               </Stack>
             </Grid>
+            {/*             
             <Grid item md={2}>
               <Resume />
             </Grid>
+            */}
           </Grid>
         </Toolbar>
       </AppBar>
