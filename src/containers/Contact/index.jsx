@@ -9,7 +9,7 @@ import { UTF8ArrToStr, base64DecToArr } from "../../utils/Obfuscate"
 import ContactIcon from "@mui/icons-material/ContactMail";
 
 
-const email = "Y2hhcmlzYUBjaGFyaXNha2luZ2xsYy5jb20=";
+const email = "Y2hhcmlzYUBjaGFyaXNha2luZy5jb20=";
 const phone = "KDUwMykgNDk4LTY1Nzg=";
 const resultEmail = UTF8ArrToStr(base64DecToArr(email));
 
